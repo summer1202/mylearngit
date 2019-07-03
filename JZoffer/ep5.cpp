@@ -43,7 +43,7 @@ void replaceblank(char string[], int length){
 		}
 		
 	}
-	cout << string << endl;
+	//cout << string << endl;
 	
 
 }
@@ -53,6 +53,7 @@ int main(int argc, _TCHAR* argv[])
 	string b = " we are happy. ";
 	strcpy(a, " we are happy. ");
 	replaceblank(a, b.length());
+	cout<<a<<endl;
 	return 0;
 }
 
